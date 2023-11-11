@@ -1,0 +1,19 @@
+After reading problem Statement Start working on the Project as follows:
+
+Readign and Understanding the Project Need
+
+Then After start creating first HTML Structure with BG Image, Heading and time Zone container
+
+Link Google Fonts Link and Custom CSS stylesheet 
+
+Also Link javascript file
+
+After Styling with flexbox for good apperiances
+
+After Styling start on action which requires like increment in tens then after 100 tens increment in seconds and then after 59 seconds increment in Minutes...
+
+For that I ma using here all ID for each perticural action
+
+For each action first declare variable and then using arrow function create action programme
+
+After creating each action try to run on Browser and check action is working perfectly
