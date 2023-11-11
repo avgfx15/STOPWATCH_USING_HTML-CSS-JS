@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Custom Style Sheet  -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Google font Link  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;600&display=swap" rel="stylesheet">
+
+    <!-- Title  -->
+    <title>Stop Watch</title>
+</head>
+
+<body>
+    <div class="container">
+        <!-- Background Image  -->
+        <div class="bgImage"></div>
+        <!-- Heading Text  -->
+        <h1 class="heading">Stop Watch</h1>
+
+        <!-- Time Zone With Button  -->
+        <div id="timeZone">
+            <p class="time">
+                <span id="minutes">00</span> : <span id="seconds">00</span> : <span id="tens">00</span>
+            </p>
+            <!-- Action Button  -->
+            <div id="actionBtn">
+                <button id="start" class="btn">Start</button>
+                <button id="stop" class="btn">Stop</button>
+                <button id="reset" class="btn">Reset</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="clockScript.js"></script>
+</body>
+
+</html>
